@@ -1,10 +1,13 @@
 import { NgModule } from "@angular/core";
-import { TodoItemListComponent} from "./todo-item.component";
+import { TodoListComponent} from "./todo-item.component";
 
 
 @NgModule({
     declarations: [
-        TodoItemListComponent
-    ]
+        TodoListComponent
+    ],
+    exports: [
+        TodoListComponent
+    ],
 })
 export class TodoItemModule {}
