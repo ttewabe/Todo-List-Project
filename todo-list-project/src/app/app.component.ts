@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'todo-list-project';
+ 
+  
+  todoList = [
+    { title: 'Buy Groceries', description: 'Milk, Bread, Eggs' },
+    { title: 'Workout', description: 'Morning run for 30 minutes' },
+    { title: 'Study', description: 'Read Angular documentation' }
+  ];
 }

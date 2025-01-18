@@ -1,5 +1,14 @@
-<h1>Todo List</h1>
+<h1>Angular Components Migration Project</h1>
+
+<!-- For todo-item -->
 <app-todo-item></app-todo-item>
+
+<!-- For todo-table -->
+<app-todo-table [todos]="todoList"></app-todo-table>
+
+<!-- For app-card -->
 <app-card title="Task 1" description="This is the first task"></app-card>
 <app-card title="Task 2" description="This is the second task"></app-card>
+
+
 <router-outlet></router-outlet>

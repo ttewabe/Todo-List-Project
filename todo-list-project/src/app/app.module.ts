@@ -4,11 +4,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodoItemModule } from './todo-list/todo-item.module';
 import { CardComponent } from './card/card.component';
+import { TodoTableComponent } from './todo-table/todo-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    TodoTableComponent
   ],
   imports: [
     BrowserModule,
