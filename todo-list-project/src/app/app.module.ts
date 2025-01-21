@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { TodoItemModule } from './todo-list/todo-item.module';
 import { CardComponent } from './card/card.component';
 import { TodoTableComponent } from './todo-table/todo-table.component';
+import { TatReactDirective } from './components/tat-react.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    TodoTableComponent
+    TodoTableComponent,
+    TatReactDirective //Directive to integrate react component in angular
   ],
   imports: [
     BrowserModule,
