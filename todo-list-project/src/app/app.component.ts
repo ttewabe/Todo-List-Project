@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IButtonProps } from './components/Button';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  //For the button component, label is passed as a prop
+  btnProps:IButtonProps = {label: 'Click Me'};
   //integrate react component in angular, sothat import path is passed as a prop
   importPath = "src/app/components/Card";
  
